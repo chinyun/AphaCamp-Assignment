@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Mac方案 - 安裝教學 </title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1> 安裝 Homebrew 軟件包板本管理器 </h1>
+	    <p> 1)首先開啟 iTerm 2 </p>
+		<div class = 'demo'>
+			<div class="title"> Terminal </div>
+			<div class='context'>
+				<div class="terminal-command"> 
+				$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/inatall)"
+				</div>
+			</div>
+		</div>
+		<p> 2) 過程中，視窗可能會出現以下指示，要求您按 Return ，即 Enter </p>
+		<div class = 'demo'>
+			<div class="title"> Terminal </div>
+			<div class= 'context'>
+				<div class="green-terminal-command"> Press RETURN to continue or any other key to abort 
+				</div>
+			</div>
+		</div>
+		<div class="attention">
+			<div class="icon-wrapper">
+				<img src="https://imageog.flaticon.com/icons/png/512/12/12136.png" alt="icon"
+				class="icon">
+			</div>
+			<div class="attention-text-wrapper">
+				<div class="attention-text">
+				注意！Homebrew 沒有安裝成功，請先暫停操作回報！沒有 Homebrew 無法正確安裝 Ruby 和 Rails！
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>

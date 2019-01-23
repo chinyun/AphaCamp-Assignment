@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.container {
+	padding: 5% 15%;
+}
+p {
+	font-size: 22px;
+}
+
+.demo {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	word-break: initial;
+    overflow-wrap: break-word;
+}
+.title {
+	color: #666666;
+	text-align: center;
+    background-color: #b7b7b7;
+    font-weight: bold;
+    line-height: 2.5em; 
+    font-size: 18px; 
+}
+.context {
+	padding: 5%;
+	width: 100%;
+	background: black;
+}
+.terminal-command {
+	color: white;
+	font-weight: 200;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	width: 100%;
+
+}
+.green-terminal-command {
+	color: #7DEE00;
+	font-weight: 200;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	width: 100%;
+}
+.attention {
+	border-style: round;
+	border-radius: 0.2em;
+	background-color: #b2def7;
+	width: 100%;
+	font-weight: 200;
+	display: flex;
+	align-items: flex-start;
+	margin-top: 2%;
+	padding: 5%;
+}
+.icon-wrapper {
+	padding: 2%;
+}
+.icon {
+	width: 60px;
+}
+.attention-text-wrapper {
+	padding: 2%;
+}
+.attention-text {
+	color: #666666;
+	font-weight: 200;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+@media screen and ( max-width: 480px) {
+	.container {
+		margin: 0 auto;
+		padding: 2%;
+	}
+}
+
